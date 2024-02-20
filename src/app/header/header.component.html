@@ -2,5 +2,6 @@
 Hi, I am from child component.
 Lets discuss about the product
 Product name is : {{product.phone}} and the model is {{product.model}} and the year of release is {{product.year_released}} and the price is {{'$' + product.price}}.
-Additionally, you will get a discount of {{ '$' + (product.price*0.1)}}
+Additionally, you will get a discount of {{ '$' + (product.price*0.1) + '.'}}
+{{product.Quantity > 0 ? 'Only ' + product.Quantity + ' left in stock.': 'Not in stock.'}}
 </div>
