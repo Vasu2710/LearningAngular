@@ -12,5 +12,6 @@ export class HeaderComponent{
        model : 15,
        year_released: 2020,
        price: 500,
+       Quantity: 0
     }
 }
